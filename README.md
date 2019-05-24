@@ -1,7 +1,7 @@
 # edd_demo
-index.html 首頁
-about_me 關於我們
-allproduct 商品總覽
-product_info 商品資訊
-cart 購物車
-member 會員中心
+index.html 首頁<Br>
+about_me 關於我們<Br>
+allproduct 商品總覽<Br>
+product_info 商品資訊<Br>
+cart 購物車<Br>
+member 會員中心<Br>
