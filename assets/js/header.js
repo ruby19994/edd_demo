@@ -32,13 +32,12 @@ document.write("<div class=\"bg-dark collapse width position-fixed \" id=\"navba
 document.write("<!-- https://stackoverflow.com/a/10055302/9265131 -->");        
 document.write("<div class=\"bg-dark py-4 \" >");        
 document.write("<center><img src=\"assets/img/logo2.jpg\" alt=\"logo2\" class=\"rounded-circle center-block \"></center><br>");
-document.write("<a href=\"index.html\"><h4 class=\"text-white mx-4\" >會員中心</h4></a>");           
+document.write("<a href=\"member.html\"><h4 class=\"text-white mx-4\" >會員中心</h4></a>");           
 document.write("<a href=\"index.html\"><h4 class=\"text-white mx-4\" >首頁</h4></a>");          
 document.write("<hr color=\"white\" width=\"100px\" size=\"20\">");          
 document.write("<a href=\"index.html\"><h4 class=\"text-white mx-4\" >商品選購</h4></a>");          
 document.write("<a href=\"allproduct.html\"><h4 class=\"text-white mx-4\" >商品總覽</h4></a>");          
-document.write("<a href=\"about_me.html\"><h4 class=\"text-white mx-4\" >關於我們</h4></a>");                   
-document.write("<a href=\"member.html\"><h4 class=\"text-white mx-4\" >成員介紹</h4></a><br>");  
+document.write("<a href=\"about_us.html\"><h4 class=\"text-white mx-4\" >關於我們</h4></a>");                   
 document.write("<a href=\"cart.html\"><i class=\'fas fa-cart-plus\' style=\"font-size:36px;\"></i></a>");         
 document.write("</div>");        
 document.write("</div>");      
