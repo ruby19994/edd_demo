@@ -3,13 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    
     <script src="assets/jquery-3.4.1.min.js"></script>
     <!--頁首選單start-->
     <script src="assets/js/header.js"></script>
@@ -37,32 +36,13 @@
 </style>
 
 <body>
-    <!-- <div class="pos-f-t">
-      <nav class="navbar navbar-dark bg-dark" >
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <img src="images/LOGO1.png" alt="blossom" width="200px" height="80px" align="right">
-        <h3 style="text-align:right; color:#FFFFFF; "><img src="images/blossom.png" alt="" style="width: 50px; margin-right:20px;">瀏覽人數 : 10000<img src="images/blossom.png" alt="" style="width: 50px; margin-left:20px;">
-        </h3>
-      </nav>
-      <div class="bg-dark collapse width position-fixed " id="navbarToggleExternalContent"> -->
-    <!-- https://stackoverflow.com/a/10055302/9265131 -->
-    <!--  <div class="bg-dark py-4 " >
-          <center><img src="images/logo2.jpg" alt="logo2" class="rounded-circle center-block "></center><br>
-          <a href="index.html"><h4 class="text-white mx-4" >首頁</h4></a>
-          <hr color="white" width="100px" size="20">
-          <a href="index.html"><h4 class="text-white mx-4" >商品選購</h4></a>
-          <a href="index.html"><h4 class="text-white mx-4" >商品總覽</h4></a>
-          <a href="index.html"><h4 class="text-white mx-4" >關於我們</h4></a>
-          <a href="index.html"><h4 class="text-white mx-4" >成員介紹</h4></a>
 
-        </div>
-      </div>
-    </div> -->
     <header class="header-class d-flex justify-content-center">
         <div class="align-self-center">
-
+            <input class="go" type="button" name="go" value="前往選購" 
+            style="position:absolute;left:700px;top:580px;">
+            <input class="about" type="button" name="about" value="了解更多"
+            style="position:absolute;left:950px;top:580px;">        
         </div>
     </header>
     <br>
@@ -100,6 +80,7 @@
 
       
  <img src="assets/img/pop.png" style="width:200px; position:absolute; left:210px;"><br><br><br><br><br>
+
     <div class="container pop">
         
         <a helf="#"><img src="assets/img/bean_flower.png" alt="" style="padding:20px; width:200px;"></a>
@@ -182,10 +163,56 @@
         </div>
 
     </div>
-    </div>
-    <br><br>
+    <br>
+
+    <img src="assets/img/new.png" style="width:200px; position:absolute; left:210px;"><br><br><br><br><br>
+
+    <div class="container pop">
+        
+        <br>
+        <div class="row">
+
+            <div class="container" align="center">
+                <div class="row">
+
+                    <div class="col">
+                        <a href="#"><img src="assets/img/redbean_milk.jpg" alt="" class="product" width="200" height="200"></a>
+
+                    </div>
+                    <div class="col">
+                        <a href="#"><img src="assets/img/ice.jpg" alt="" class="product" width="200" height="200"></a>
+
+                    </div>
+                    <div class="col">
+                        <a href="item.jsp?numa=15"><img src="assets/img/blacksugar_milk.jpg" alt="" class="product" width="200" height="200"></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-1">
+            </div>
+        </div>
+
+    </div><br><br>
+<footer class="footer">
+<p>電話 : 08-0000000</p>
+<p>Contact Information  :<a href="mailto:zser5498210@gmail.com">
+zser5498210@gmail.com </a></p> 
+</footer>
 
 </body>
+    <script> 
+    window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 673.6 || document.documentElement.scrollTop > 673.6) {
+    document.getElementById("logoimg").style.height = "80px";
+  } else {
+    document.getElementById("logoimg").style.height = "0";
+  }
+    </script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
