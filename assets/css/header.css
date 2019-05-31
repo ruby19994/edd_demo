@@ -41,7 +41,7 @@
 #label{
 	text-align: left;
 }
-input.account, input.psw {
+input.text, input.psw {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
