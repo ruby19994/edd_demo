@@ -59,7 +59,7 @@ background-color:#880000 ;
 box-shadow: 0 5px 	#A42D00;
 transform: translateY(4px);
 }
-input, input
+input.change_file
  {
   width: 30%;
   height:2%;
