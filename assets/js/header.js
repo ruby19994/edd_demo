@@ -28,7 +28,7 @@ document.write("<button class=\"navbar-toggler\" style=\" width:53px;\"type=\"bu
 document.write("<span class=\"navbar-toggler-icon\" ></span>");        
 document.write("</button>");
 document.write("<button id=\"btn\" onclick=\"document.getElementById('id01').style.display='block'\" style=\"width:auto;position:absolute;left:100px;top:15px;\">Login</button> ");
-document.write("<button id=\"btn\" onclick=\"document.getElementById('id02').style.display='block'\" style=\"width:auto;position:absolute;left:200px;top:15px;\">Signin</button> ");       
+document.write("<button id=\"btn\" onclick=\"document.getElementById('id02').style.display='block'\" style=\"width:auto;position:absolute;left:200px;top:15px;\">Sign up</button> ");       
 document.write("<img id=\"logoimg\" src=\"assets/img/LOGO1.png\" alt=\"blossom\" width=\"200px\" height=\"80px\" align=\"right\">");        
 document.write("<h4 style=\"text-align:right; color:#FFFFFF; \"><img src=\"assets/img/blossom.png\" alt=\"\" style=\"width: 45px; margin-right:20px;\">瀏覽人數 : 10000<img src=\"assets/img/blossom.png\" alt=\"\" style=\"width: 45px; margin-left:20px;\">");        
 document.write("</h4>");        
