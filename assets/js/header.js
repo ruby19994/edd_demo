@@ -56,7 +56,7 @@ document.write("<img src=\"assets/img/1.png\"style=\"width:130px;\" alt=\"Avatar
 document.write("</div>");
 document.write("<div class=\"container\">");
 document.write("<h5 style=\"text-align:left;font-weight:bold;\">電子信箱</h5>");
-document.write("<input id=\"input\" class=\"text\" type=\"text\" placeholder=\"Enter E-mail\" name=\"uname\" required>");
+document.write("<input id=\"input\" class=\"text\" type=\"mail\" placeholder=\"Enter E-mail\" name=\"uname\" required>");
 document.write("<h5 style=\"text-align:left;font-weight:bold;\">密碼</h5>");
 document.write("<input type=\"password\" class=\"psw\" placeholder=\"Enter Password\" name=\"psw\" required>");
 document.write("<button id=\"btn\" type=\"submit\">Login</button>");
