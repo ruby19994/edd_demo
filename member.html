@@ -42,7 +42,7 @@
         	<label for="address">Address</label><br>
       		<input type="textarea"  placeholder="輸入地址" name="address" class="change_file"><br>
       		<label for="tel">Tel/Phone</label><br>
-      		<input type="tel"  placeholder="輸入電話" name="tel" class="change_file"><br>
+      		<input type="tel" onkeyup="value=value.replace(/[^\d]/g,'') "  placeholder="輸入電話" name="tel" class="change_file"><br>
       		<button type="submit" class="button">Change</button>
       		<button type="button" onclick="document.getElementById('change_file').style.display='none'"  class="button">Cancel</button>
    		 	</div>
