@@ -66,7 +66,7 @@
                                     </td>
                                     <td class="product-price">NT$&nbsp;30</td>
                                     <td class="product-quantity">
-                                        <input type="number" value="1">
+                                        <input onkeyup="value=value.replace(/[^\d]/g,'')" type="number" value="1" min="0" max="50">
                                     </td>
                                     <td class="product-subtotal">NT$&nbsp;30</td>
                                     <td class="product-remove">
@@ -142,7 +142,7 @@
             </tr>
             <tr>
             <td class="td_label"><label for="tel">電話 Tel/Phone</label></td>
-            <td ><input type="tel"  placeholder="輸入電話" name="tel" class="check_out"></td>
+            <td ><input type="tel" onkeyup="value=value.replace(/[^\d]/g,'')"  placeholder="輸入電話" name="tel" class="check_out"></td>
             </tr>
             <tr>
             <td class="td_label"><label >取貨方式 Pick up</label></td>
