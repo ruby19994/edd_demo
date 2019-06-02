@@ -32,7 +32,7 @@ document.write("</h4>");
 document.write("</nav>");      
 document.write("<div class=\"bg-dark collapse width position-fixed \" id=\"navbarToggleExternalContent\">");      
 document.write("<!-- https://stackoverflow.com/a/10055302/9265131 -->");        
-document.write("<div class=\"bg-dark py-4 \" style=\"text-align:center\">");        
+document.write("<div class=\"bg-dark py-4 \" style=\"width:40% text-align:center\">");        
 document.write("<center><img src=\"assets/img/logo2.jpg\" alt=\"logo2\" class=\"rounded-circle center-block \"></center><br>");           
 document.write("<a href=\"index.html\"><h4 class=\"text-white mx-4\" >首頁</h4></a>");          
 document.write("<hr color=\"white\" width=\"100px\" size=\"20\">");    
