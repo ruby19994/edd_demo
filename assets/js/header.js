@@ -1,24 +1,21 @@
-document.write("<script>");
-document.write("<head>" );
-document.write("<meta charset=\"UTF-8\">" );     
-document.write("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">" );    
-document.write("<meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">" );    
+
+
 document.write("<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css\" integrity=\"sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm\" crossorigin=\"anonymous\">" );    
 document.write("<link rel=\"stylesheet\" href=\"https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css\" integrity=\"sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS\" crossorigin=\"anonymous\">" );    
 document.write("<script src=\"assets/js/jquery-3.4.1.min.js\"></script>");    
 document.write("<link rel=\"stylesheet\" type=\"text/css\" href=\"assets/css/header.css\">");
 document.write("<link rel=\'stylesheet\' href=\'https://use.fontawesome.com/releases/v5.7.0/css/all.css\' integrity=\'sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ\' crossorigin=\'anonymous\'>");
-document.write("<title>header</title>");  
 
-document.write("<script>");  
-document.write("const $menu = $('#navbarToggleExternalContent');");  
-document.write("$menu.on('show.bs.collapse', function () {");  
-document.write("$menu.addClass('show');");    
-document.write("});");  
-document.write("$menu.on('hide.bs.collapse', function () {");  
-document.write("$menu.removeClass('show');");    
-document.write("});");  
-document.write("</script>");
+
+ 
+const $menu = $('#navbarToggleExternalContent'); 
+$menu.on('show.bs.collapse', function () { 
+$menu.addClass('show');   
+}); 
+$menu.on('hide.bs.collapse', function () { 
+$menu.removeClass('show');   
+}); 
+
 
 document.write("</head>");
 document.write("<body>");
@@ -91,9 +88,7 @@ document.write("<div class=\"container\" style=\"background-color:#f1f1f1\">");
 document.write("<button  type=\"button\" onclick=\"document.getElementById('id02').style.display='none'\" class=\"cancelbtn\">Cancel</button><br>");
 document.write("</div>");
 document.write("</form></div>");   
-document.write("<footer class=\"footer\"><p>電話:08-0000000</p>");
-document.write("<p>Contact information:<a href=\"mailto:zser5498210@gmail.com\">");
-document.write("zser5498210@gmail.com</a></p></footer>");
+
 document.write("</body>"); 
 document.write("<script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"><\/script>");  
 document.write("<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js\" integrity=\"sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut\" crossorigin=\"anonymous\"><\/script>");  
