@@ -46,7 +46,7 @@ document.write("</div>");
 document.write(" </div>");
 /*登入框架*/
 document.write("<div id=\"id01\" class=\"modal\">");
-document.write("<form class=\"modal-content animate\" style=\"width:40% text-align:center\" action=\"/action_page.php\">");
+document.write("<form class=\"modal-content animate\" style=\" text-align:center\" action=\"/action_page.php\">");
 document.write("<div class=\"imgcontainer\" >");
 document.write("<span onclick=\"document.getElementById('id01').style.display='none'\" class=\"close\" title=\"Close Modal\">&times;</span>");
 document.write("<img src=\"assets/img/1.png\"style=\"width:130px;\" alt=\"Avatar\" class=\"avatar\">");
@@ -65,7 +65,7 @@ document.write("</div>");
 document.write("</form></div>");
 /*註冊框架*/
 document.write("<div id=\"id02\" class=\"modal\">");
-document.write("<form class=\"modal-content animate\" style=\"width:40% text-align:center\" action=\"/action_page.php\">");
+document.write("<form class=\"modal-content animate\" style=\" text-align:center\" action=\"/action_page.php\">");
 document.write("<div class=\"imgcontainer\" >");
 document.write("<span onclick=\"document.getElementById('id02').style.display='none'\" class=\"close\" title=\"Close Modal\">&times;</span>");
 document.write("<img src=\"assets/img/1.png\"style=\"width:130px;\" alt=\"Avatar\" class=\"avatar\">");
