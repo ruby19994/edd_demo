@@ -6,6 +6,7 @@
 	bottom: 0pt;
 	columns: 3;
 	column-rule: ridge 2pt #fff;
+	text-align:center;
 }
 .link
 {
