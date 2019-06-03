@@ -37,7 +37,7 @@ document.write("<center><img src=\"assets/img/logo2.jpg\" alt=\"logo2\" class=\"
 document.write("<a href=\"index.html\"><h4 class=\"text-white mx-4\" >首頁</h4></a>");          
 document.write("<hr color=\"white\" width=\"100px\" size=\"20\">");    
 document.write("<a href=\"member.html\"><h4 class=\"text-white mx-4\" >會員中心</h4></a>");      
-document.write("<a href=\"index.html\"><h4 class=\"text-white mx-4\" >商品選購</h4></a>");          
+document.write("<a href=\"purchase.html\"><h4 class=\"text-white mx-4\" >商品選購</h4></a>");          
 document.write("<a href=\"allproduct.html\"><h4 class=\"text-white mx-4\" >商品總覽</h4></a>");          
 document.write("<a href=\"about_us.html\"><h4 class=\"text-white mx-4\" >關於我們</h4></a>");                    
 document.write("<a href=\"cart.html\"><img src=\"assets/img/cart.png\" style=\"width:50px;\"></a>");         
@@ -78,7 +78,7 @@ document.write("<input type=\"email\" class=\"text\" placeholder=\"Enter E-mail\
 document.write("<h5 style=\"text-align:left;font-weight:bold;\">密碼</h5>");
 document.write("<input type=\"password\" class=\"psw\" placeholder=\"Enter Password\" name=\"psw\" required>");
 document.write("<h5 style=\"text-align:left;font-weight:bold;\">電話</h5>");
-document.write("<input type=\"tel\" class=\"text\" placeholder=\"Enter Phone\" name=\"phone\" required>");
+document.write("<input type=\"tel\" class=\"text\" onkeyup=\"value=value.replace(/[^\\d]/g,'') \" placeholder=\"Enter Phone\" name=\"phone\" Maxlength=\"10\" required>");
 document.write("<h5 style=\"text-align:left;font-weight:bold;\">地址</h5>");
 document.write("<input type=\"text\" class=\"text\" placeholder=\"Enter Address\" name=\"address\" required>");
 document.write("<button id=\"btn\" type=\"submit\">Sign up</button>");
