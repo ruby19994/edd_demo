@@ -52,6 +52,12 @@ border: none;
 border-radius: 15px;
 box-shadow: 0 8px #FFA488;
 }
+.checked
+{
+	margin: 0% 3%;
+	color:#FF9898;
+	font-size:16pt;
+}
 .button:hover {background-color:#FF5511}
 .button:active {
 color: #fff;
