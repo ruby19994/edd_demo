@@ -5,6 +5,10 @@ background-repeat: fixed;
 background-size: 100% 100%;
 background: cover;
 text-align: center;
+font-weight: bold;
+}
+.h2{
+	font-weight: bold;
 }
 div.info
 {
@@ -21,7 +25,7 @@ div.intro
 {
 	font-family: "微軟正黑體";
 	font-size:16pt;
-margin: 3% 25% 3% 25%;
+margin: 3% 15% 3% 15%;
 padding:  1%;
 background-color:#DEB887;
 border:2pt 	#A0522D solid;
