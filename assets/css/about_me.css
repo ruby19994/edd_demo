@@ -52,6 +52,9 @@ height: 0;
 clear:both;
 visibility: hidden;
 }
-
+.photo{
+	width:100%;
+	padding:2px;
+}
 
 
